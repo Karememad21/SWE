@@ -54,7 +54,7 @@ public class Customer{
     
     public void login(String userID , String userPassword){
             if(userMatch(userID,userPassword) != true){
-                System.out.println("bad");
+                System.out.println("wrongPassword");
             }
     }
     public boolean userMatch(String userID, String userPassword){
